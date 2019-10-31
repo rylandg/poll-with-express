@@ -1,0 +1,65 @@
+{
+  "name": "poll",
+  "author": "Ryland Goldstein",
+  "version": "0.1.1",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@reshuffle/code-transform": "0.0.3",
+    "@reshuffle/db": "^0.5.3",
+    "@reshuffle/fetch-runtime": "0.0.5",
+    "@reshuffle/local-proxy": "^0.2.12",
+    "@reshuffle/server-function": "0.0.6",
+    "bootstrap": "^4.3.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshufflehq/poll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reshufflehq/poll/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint backend && stylelint src/**/*.css"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "create-react-app",
+    "fullstack",
+    "poll",
+    "survey",
+    "bootstrap",
+    "backend"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}

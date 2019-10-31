@@ -1,0 +1,14 @@
+.highLevel {
+  min-height: 100%;
+  min-height: 100vh;
+  background-image: url(../icecream.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pollHolder {
+  text-align: center;
+  width: 35%;
+  bottom: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+}

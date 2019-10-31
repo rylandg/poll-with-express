@@ -1,0 +1,56 @@
+/** Styles from https://github.com/callicoder/spring-security-react-ant-design-polls-app **/
+
+.cvPollChoice {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.cvPollChoiceDetails {
+  position: relative;
+  z-index: 1;
+  display: block;
+  line-height: 1.7;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.cvChoicePercentage {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cvChoiceText {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.selectedChoiceIcon {
+  margin-left: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cvChoicePercentChart {
+  position: absolute;
+  background: rgba(200, 200, 200, 0.75);
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 0.35em;
+  transition: all 0.3s cubic-bezier(0.5, 1.2, 0.5, 1.2);
+  opacity: 1;
+}
+
+.cvChoicePercentChart.winner {
+  background: rgba(119, 199, 247, 0.75);
+}
